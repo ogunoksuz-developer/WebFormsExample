@@ -1,0 +1,127 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #34495e;
+}
+
+.box {
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #191919;
+    text-align: center;
+}
+
+    .box h1 {
+        color: white;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+
+
+
+    .box .txtbx {
+        border: 0;
+        background: none;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        border: 2px solid #3498db;
+        padding: 14px 10px;
+        width: 200px;
+        outline: none;
+        color: white;
+        border-radius: 24px;
+        transition: 0.25s;
+    }
+
+
+        .box .txtbx:focus {
+            width: 280px;
+            border-color: #2ecc71;
+        }
+
+
+.btnClass {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+    .btnClass:hover {
+        background: #2ecc71;
+    }
+
+nav {
+    width: 100%;
+    background: #00316b;
+}
+
+ul {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+    ul li {
+        list-style: none;
+        display: inline-block;
+        padding: 20px;
+    }
+
+        ul li:hover {
+            background: #e91e63;
+        }
+
+        ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+
+
+@media(max-width:768px) {
+    .toggleee {
+        display: block;
+    }
+
+    ul {
+        width: 100%;
+        display: none;
+    }
+
+        ul li {
+            display: block;
+            text-align: center;
+        }
+
+    .active {
+        display: block;
+    }
+}
+
+#SearchInput {
+    background-image: url('/css/searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+    
+}
